@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
-"""
-Gerador de Dataset com Ruído para Reconhecimento de Letras
-Gera variações com ruído das 26 letras do alfabeto em matriz 5x5
-"""
 
 import random
 from typing import List, Tuple
 
-# Letras base (padrão limpo)
 LETRAS_BASE = {
     'A': [-1,1,1,1,-1,1,-1,-1,-1,1,1,1,1,1,1,1,-1,-1,-1,1,1,-1,-1,-1,1],
     'B': [1,1,1,1,-1,1,-1,-1,-1,1,1,1,1,1,-1,1,-1,-1,-1,1,1,1,1,1,-1],
